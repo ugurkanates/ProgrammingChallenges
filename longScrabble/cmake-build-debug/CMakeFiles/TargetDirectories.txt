@@ -1,0 +1,3 @@
+/home/paypaytr/CLionProjects/longScrabble/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/paypaytr/CLionProjects/longScrabble/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/paypaytr/CLionProjects/longScrabble/cmake-build-debug/CMakeFiles/longScrabble.dir

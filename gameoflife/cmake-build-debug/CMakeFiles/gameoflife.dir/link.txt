@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/gameoflife.dir/main.cpp.o CMakeFiles/gameoflife.dir/grid.cpp.o  -o gameoflife 

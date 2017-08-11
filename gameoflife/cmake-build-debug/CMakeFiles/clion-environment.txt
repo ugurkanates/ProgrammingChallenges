@@ -1,0 +1,1 @@
+CMake: 3.6.3@/home/paypaytr/Desktop/clion-2016.3.4/bin/cmake/bin/cmake

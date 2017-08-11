@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/givenLargestPalindrome.dir/main.cpp.o  -o givenLargestPalindrome 
