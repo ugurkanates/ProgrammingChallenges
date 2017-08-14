@@ -1,69 +1,64 @@
 ders : Bilgisayar Bilimlerine Giris
 hoca : Doç. Dr. Fatih Erdoğan SEVİLGEN
 kod : 101
-akts : 5
-gtukred : 3
-donem : 1
+akts :5
+gtukred :3
 info : bu derste bilgisayar ogretiliyor falan xd.Also ogretiliyor someshit
 Also ogretiliyor someshit.
 soru : flip-flop devre nedir
 cevap : erdogangobegi
-semester : 1
--
+semester :1
+**
 ders : Bilgisayar Bilimlerine Giris
 hoca : erdogan
 kod : 101
-akts : 5
-gtukred : 3
-donem : 1
+akts :5
+gtukred :3
 info : bu derste bilgisayar ogretiliyor falan xd.Also ogretiliyor someshit
 Also ogretiliyor someshit.
 soru : flip-flop devre nedir
 cevap : erdogangobegi
-semester : 1
--
+semester :1
+**
 ders : Bilgisayar Bilimlerine Giris
 hoca : erdogan
 kod : 101
-akts : 5
-gtukred : 3
-donem : 1
+akts :5
+gtukred :3
 info : Bilgisayar Mühendisliği eğitimine başlayan öğrencilere, mühendisliğin ve özel olarak bilgisayar mühendisliğinin çalışma alanlarını öğretmek. Bilgisayar tarihçesi, felsefesi, donanım ve yazılım esasları hakkında düşünebilme yeteneği kazandırmak.
 soru : flip-flop devre nedir
 cevap : bilgisayar kullanilan bir devre
-semester : 1
--
+semester :1
+**
 ders : Bilgisayar Mühendisliği Oryantasyonu
 hoca : Yrd. Doç. Dr. Yakup GENÇ
 kod : 100
-akts : 1
-gtukred : 1
+akts :1
+gtukred :1
 info : Bilgisayar Mühendisliği bölümünün genel yapısını tanıtmak; bölüm öğretim elemanlarını ve araştırma alanlarını aktarmak.
 soru : yakup hocanin kedisi mi var kopegimi
 cevap : kopek
-semester : 1
--
+semester :1
+**
 ders : ucan bilgisayar
 hoca : erdogan
 kod : 104
-akts : 9
-gtukred : 6
-donem : 1
+akts :9
+gtukred :6
 info : bu derste bilgisayar ogretiliyor falan xd.Also ogretiliyor someshit
 Also ogretiliyor someshit.
 soru : flip-flop devre nedirkiii
 cevap : erdogangobegidirr
-semester : 1
--
+semester :1
+**
 ders : cikamadi bilgisayar 
 hoca : erdogantayp
 kod : 103
-akts : 5
-gtukred : 5
-donem : 1
+akts :5
+gtukred :5
 info : bu derste bilgisayar ogretiliyor falan xd.Also ogretiliyor someshit
 Also ogretiliyor someshit.
 soru : flip-flop dxvre nedir
 cevap : erdogangobegi
-semester : 1
--
+semester :1
+**

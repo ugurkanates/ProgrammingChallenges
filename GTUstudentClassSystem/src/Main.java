@@ -15,8 +15,8 @@ public class Main {
         try {
 
 
-            Job pc = new Job(YEAR);
-            Job mimar = new Job(YEAR);
+            Job pc = new Job("/home/paypaytr/IdeaProjects/GTUstudentClassSystem/src/test1.txt");
+            Job mimar = new Job("/home/paypaytr/IdeaProjects/GTUstudentClassSystem/src/mimar.txt");
 
 
             int i = 0;
@@ -48,8 +48,11 @@ public class Main {
 
             }
             dersProgram.fiil(My);
+            dersTable.printe(My);
             for (int m = 0; m < 5; m++)
-                System.out.print(haf[m]);
+                System.out.print(dersProgram.week[m]);
+            gui deneme = new gui(My);
+
 
         } catch (Exception e) {
             ;

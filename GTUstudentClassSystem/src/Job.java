@@ -26,9 +26,9 @@ import java.util.*;
     public Job(){
 
     }
-    public Job (int n)  throws Exception{
+    public Job (String n)  throws Exception{
         try {
-            read();
+            read(n);
             called++;
 
 
@@ -39,28 +39,27 @@ import java.util.*;
     }
     public void addit(Job a){
         Random ra = new Random();
-        int n = ra.nextInt();
+        int n = ra.nextInt( a.name.size()) ;
 
-        a.name.add(name.get(n));
-        a.information.add(information.get(n));
-        a.answer.add(answer.get(n));
-        a.question.add(question.get(n));
-        a.akts.add(akts.get(n));
-        a.GTUakts.add(GTUakts.get(n));
-        a.tutor.add(tutor.get(n));
-        a.code.add(code.get(n));
-        a.semester.add(semester.get(n));
+        name.add(a.name.get(n));
+        information.add(a.information.get(n));
+        answer.add(a.answer.get(n));
+        question.add(a.question.get(n));
+        akts.add(a.akts.get(n));
+        GTUakts.add(a.GTUakts.get(n));
+        tutor.add(a.tutor.get(n));
+        code.add(a.code.get(n));
+        semester.add(a.semester.get(n));
 
     }
-    public void read() throws Exception{
+    public void read(String a) throws Exception{
         try {
             className = this.getClass().getSimpleName();
             className = className + ".txt";
             //openFile(className);
 
-            readFile("mimar");
+            readFile(a);
 
-            System.out.println("mimar");
             //closeFile();
         }
         catch (Exception e) {
@@ -88,7 +87,7 @@ import java.util.*;
         FileReader fr = null;
         BufferedReader br = null;
         try {
-            fr = new FileReader("/home/paypaytr/IdeaProjects/GTUstudentClassSystem/src/mimar.txt");
+            fr = new FileReader(classzame);
             br = new BufferedReader(fr);
 
 
@@ -96,9 +95,9 @@ import java.util.*;
             String info=null;
             while ((line = br.readLine()) != null)  //Checks what in C++ you do EOF
             {
-                int infoDelim = line.indexOf(":");
+                int infoDelim = line.indexOf(":"); //means threa or two more rows work  like info section
                 ;
-                if (infoDelim != -1 && line.contains("info")!=true && line.contains("-")!=true ) {
+                if (infoDelim != -1 && line.contains("info")!=true && line.contains("**")!=true ) {
                     line = line.substring(line.indexOf(":") + 1);
                     switch (j){
                         case 0:
@@ -111,6 +110,7 @@ import java.util.*;
                             code.add(line);
                             break;
                         case 3:
+                            Integer x = Integer.valueOf(line);
                             akts.add(Integer.valueOf(line));
                             break;
                         case 4:
@@ -118,6 +118,7 @@ import java.util.*;
                             ++j;
                             break;
                         case 6:
+                            information.add(i-1,info);
                             question.add(line);
                             break;
                         case 7:
@@ -132,17 +133,15 @@ import java.util.*;
                     j++;
                 }
                 else if(line.contains("info")==true) {
+                    i++;
                     line = line.substring(line.indexOf(":") + 1);
                     info=line;
-                    line=info;
                 }
-                else if(line.contains("-")==true){
-                    i++;
+                else if(line.contains("**")==true){
                     j=0;
                 }
                 else {
                     info+=line;
-                    information.add(5,info);
                 }
 
                 ;  //Here I am just implementing, how to print string after ":", you can process the string stored in variable line as per your convenience

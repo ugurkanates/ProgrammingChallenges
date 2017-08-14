@@ -1,35 +1,31 @@
 ders : mimara giris
 hoca : girdim
 kod : 109
-akts : 5
-gtukred : 3
-donem : 1
+akts :5
+gtukred :3
 info : cikamdim
 soru : flip-flop devre nedir
 cevap : erdogangobegi
-semester : 1
--
+semester :1
+**
 ders : mimarliar
 hoca : mimarsinan
 kod : 104
-akts : 7
-gtukred : 3
-donem : 1
+akts :7
+gtukred :3
 info : bu derste bilgisayar ogretiliyor falan xd.Also ogretiliyor someshit
 Also ogretiliyor someshit.
 soru : mimarkim
 cevap : ben
-semester : 1
--
-
+semester :1
+**
 ders : mimarovasi
 hoca : zakrrak
 kod : 101
-akts : 3
-gtukred : 3
-donem : 1
+akts :3
+gtukred :3
 info : mimar abi sikeyim seni.
 soru : mikimosa kim
 cevap : erdogangobegi
-semester : 1
--
+semester :1
+**

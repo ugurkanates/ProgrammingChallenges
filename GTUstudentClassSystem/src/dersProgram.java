@@ -23,28 +23,32 @@ public class dersProgram {
     public static void fiil(Job our){
         int f = our.akts.size();
         int array[]=new int[f];
+        int ekle=0;
         for(int c=0;c<f;c++)
-        array[f]=0;
+            array[c]=0;
 
         for(int i=0;i<day;i++){
-
+            starter=9;
             while(true){
                 artis=Random() % our.akts.size();
-                array[artis]++;
                 if(allfull(array, f)==-1 && starter+artis<bitis){
 
-                    week[i]+= starter + our.code.get(artis)+ "\n" + starter+artis+our.name.get(artis);
+                    week[i]+= starter + our.code.get(artis)+ "\n" + (starter+artis)+our.name.get(artis) +"\n";
                 }
-                else if(starter+allfull(array,f)<bitis){
-                    array[allfull(array,f)]++;
-                    week[i]+= starter + our.code.get(allfull(array,f))+ "\n" + starter+allfull(array,f)+our.name.get(allfull(array,f));
+                else if(starter+(ekle=allfull(array,f)) <bitis){
+                    array[ekle]++;
+                    if(week[i]==null) {
+                        week[i] = starter + our.code.get(ekle) + "\n" + (int) (starter + ekle) + our.name.get(ekle) + "\n";
+                    }
+                    else
+                        week[i] += starter + our.code.get(ekle) + "\n" + (int) (starter + ekle) + our.name.get(ekle) + "\n";
 
                 }
                 else
                     break;
 
+                starter+=artis;
                 }
-                System.out.println("day ends");
 
 
 
